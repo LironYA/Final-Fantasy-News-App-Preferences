@@ -1,0 +1,69 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingEnd="@dimen/news_padding"
+    android:paddingLeft="@dimen/news_padding"
+    android:paddingRight="@dimen/news_padding"
+    android:paddingStart="@dimen/news_padding">
+
+    <TextView
+        android:id="@+id/category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/rounded_corners"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:padding="@dimen/textview_padding"
+        android:text="Category text"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textSize="@dimen/text_size"
+        android:textStyle="bold"
+        android:typeface="sans"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/artical_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:ellipsize="end"
+        android:fontFamily="@font/oswald"
+        android:lineSpacingExtra="@dimen/line_spacing"
+        android:maxLines="4"
+        android:textSize="@dimen/text_size_title"
+        tools:text="Artical Title" />
+    <TextView
+        android:id="@+id/author"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:ellipsize="end"
+        android:fontFamily="@font/oswald"
+        android:lineSpacingExtra="@dimen/line_spacing"
+        android:maxLines="1"
+        android:textSize="@dimen/text_size"
+        tools:text="Artical Title" />
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+
+
+    <TextView
+        android:id="@+id/publish_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:ellipsize="end"
+        android:fontFamily="@font/oswald"
+        android:lineSpacingExtra="@dimen/line_spacing_publish"
+        android:maxLines="1"
+        android:textSize="@dimen/text_size"
+        tools:text="Publish Date" />
+</LinearLayout>

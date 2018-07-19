@@ -1,0 +1,27 @@
+<resources>
+    <!-- Order By -->
+    <string-array name="settings_order_by_labels">
+        <item>@string/settings_order_by_label_arrays</item>
+        <item>@string/settings_order_by_most_recent_label</item>
+    </string-array>
+    <string-array name="settings_order_by_values">
+        <item>@string/settings_order_by_value</item>
+        <item>@string/settings_order_by_most_recent_value</item>
+    </string-array>
+
+<!-- Query -->
+    <string-array name="settings_query_labels">
+        <item>@string/settings_query_label_last_of_us</item>
+        <item>@string/settings_query_label_zelda</item>
+        <item>@string/settings_query_label_assassin</item>
+        <item>@string/settings_query_label_tomb</item>
+        <item>@string/setting_query_default_value</item>
+    </string-array>
+    <string-array name="settings_query_values">
+        <item>@string/settings_query_value_last_of_us</item>
+        <item>@string/settings_query_value_zelda</item>
+        <item>@string/settings_query_value_assassin</item>
+        <item>@string/settings_query_value_tomb</item>
+        <item>@string/setting_query_default_value</item>
+    </string-array>
+</resources>

@@ -1,0 +1,17 @@
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/Preferences_title">
+    <ListPreference
+        android:defaultValue="@string/settings_order_by_default"
+        android:entries="@array/settings_order_by_labels"
+        android:entryValues="@array/settings_order_by_values"
+        android:key="@string/settings_order_by_key"
+        android:title="@string/settings_order_by_label" />
+<!-- Query -->
+    <ListPreference
+        android:defaultValue="@string/setting_query_default_value"
+        android:entries="@array/settings_query_labels"
+        android:entryValues="@array/settings_query_values"
+        android:key="@string/settings_query_key"
+        android:title="@string/settings_query_label" />
+</PreferenceScreen>

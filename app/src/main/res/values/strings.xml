@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Gaming News App</string>
+    <string name="Preferences_title">Settings</string>
+    <string name="settings_order_by_key" translatable="false">order_by</string>
+    <string name="settings_order_by_newest_key">Newest</string>
+    <string name="settings_order_by_newest_value">newest</string>
+    <string name="settings_order_by_oldest_key">Oldest</string>
+    <string name="settings_order_by_oldest_value">oldest</string>
+
+    <string name="settings_order_by_label">Order By</string>
+    <string name="settings_order_by_default" translatable="false">@string/settings_order_by_value</string>
+    <string name="settings_order_by_value" translatable="false">newest</string>
+    <string name="settings_query_last_of_us_value" translatable="false">last of us</string>
+
+    <string name="settings_order_by_label_arrays">Newest</string>
+    <!-- Label for order-by most recent option [CHAR LIMIT=20] -->
+    <string name="settings_order_by_most_recent_label">Oldest</string>
+    <string name="settings_order_by_most_recent_value" translatable="false">oldest</string>
+    <!-- Query -->
+    <string name="settings_query_default" translatable="false">@string/settings_query_last_of_us_value</string>
+    <string name="settings_query_key">query</string>
+    <string name="setting_query_default_value">Final Fantasy</string>
+    <string name="settings_query_label">Choose your gaming news</string>
+
+    <!--Label for games query -->
+    <string name="settings_query_label_last_of_us">The last of us</string>
+    <string name="settings_query_label_zelda">The legend of zelda</string>
+    <string name="settings_query_label_assassin">Assassin\'s Creed</string>
+    <string name="settings_query_label_tomb">Tomb Raider</string>
+
+    <!--Values for games query -->
+    <string name="settings_query_value_last_of_us">the last of us</string>
+    <string name="settings_query_value_zelda">the legend of zelda</string>
+    <string name="settings_query_value_assassin">assassin\'s creed</string>
+    <string name="settings_query_value_tomb">tomb raider</string>
+</resources>

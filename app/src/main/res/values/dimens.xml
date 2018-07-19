@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="news_padding">16dp</dimen>
+    <dimen name="textview_padding">8dp</dimen>
+    <dimen name="text_size">14sp</dimen>
+    <dimen name="text_size_title">18sp</dimen>
+    <dimen name="margin_main">8dp</dimen>
+    <dimen name="line_spacing">4sp</dimen>
+    <dimen name="line_spacing_publish">12sp</dimen>
+    <dimen name="line_padding">25dp</dimen>
+    <dimen name="shape_radius">15dp</dimen>
+</resources>
